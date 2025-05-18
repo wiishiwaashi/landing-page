@@ -1,0 +1,184 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*headerpart*/
+.header{
+    padding: 0px 200px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+/*awesome*/
+.div1{
+    padding: 40px 200px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    color: white;
+}
+
+.info p {
+    width:500px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+#awesome{
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.div1 img {
+    width: 500px;
+    height: 200px;
+}
+
+/*cards*/
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding: 0px 200px 100px 200px;
+}
+
+.content{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.allcards{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+/*quote*/
+.div3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px 350px;
+}
+
+.quote{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.person{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+.person p {
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*call to action*/
+.div4{
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.bluebox{
+    width: 1000px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.coa p {
+    color: white;
+    padding: 0;
+    margin: 5px;
+}
+
+.coa .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button{
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.bluebox button{
+    border-color: white;
+}
+
+.footer{
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
